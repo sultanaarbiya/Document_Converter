@@ -1,0 +1,29 @@
+/* .app-container {
+  display: flex;
+}
+.sidebar {
+  width: 20%;
+  background: #f0f0f0;
+  padding: 20px;
+}
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+} */
+
+/* App.css */
+.app-container {
+  display: flex;
+  height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.content-wrapper {
+  margin-top: 20px;
+}

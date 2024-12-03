@@ -1,0 +1,74 @@
+.patient-details-container {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .header {
+    text-align: center;
+    color: #333;
+  }
+  
+  .patient-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .patient-card {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .patient-info {
+    flex: 1;
+    max-width: 300px;
+  }
+  
+  .patient-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .vitals-container {
+    flex: 2;
+  }
+  
+  .vital-cards {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+  }
+  
+  .vital-card {
+    flex: 1;
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f1f1f1;
+  }
+  
+  .vital-card img {
+    width: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .diagnostic-list {
+    margin-top: 10px;
+  }
+  
+  .diagnostic-status {
+    color: #007bff;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+  }
+  
